@@ -1,0 +1,270 @@
+:root{
+    --vary-dark: hsl(220, 18%, 7%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --light-gray: hsl(217, 12%, 63%);
+    --medium-gray: hsl(216, 12%, 54%);
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+.wrapper{
+    background-color: var(--vary-dark);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: var(--dark-blue) ;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10%;
+}
+.star{
+    background-color: var(--vary-dark);
+    border: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content:center;
+    margin: 30px;
+    /* height: 10px;
+    width: 10px; */
+    border-radius: 50%;
+}
+
+.rates{
+    
+    display: flex;
+    margin: 5px 0px 15px 20px;
+    
+}
+.rate{
+    color: var(--light-gray);
+    border: 0;
+    display: flex;
+    padding: 15px;
+    margin: 5px;;
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--vary-dark);
+}
+.rate:hover{
+    background-color: var(--Orange);
+
+}
+.rate:active{
+    background-color: var(--light-gray);
+}
+.btn{
+    background-color: var(--Orange);
+    border: 0;
+    height: 200px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 0px 0px 30px 30px;
+    color: var(--White);
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color: var(--White);
+    color: var(--Orange);
+}
+.message{
+    margin: 30px;
+    display: flex;
+    justify-content:end;
+    /* align-items: center; */
+}
+p{
+    color: var(--light-gray);
+}
+.question{
+    color: var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 30px;
+}
+.container1{
+    background-color: var(--dark-blue) ;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.thankupic{
+    margin: 20px;
+}
+.selected{
+    border: 0;
+    padding: 5px;
+    height: 20px;
+    border-radius: 25px;
+    margin: 20px 0px 20px 0px ;
+    background-color: var(--vary-dark);
+}
+.selected p{
+    color:var(--Orange);
+}   
+.thanks{
+    color: var(--White);
+}
+.message2{
+    margin: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.appreciation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 375px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper{
+        background-color: var(--vary-dark);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        background-color: var(--dark-blue) ;
+        height: 400px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        border-radius: 10%;
+        margin: 15px;
+    }
+    .star{
+        background-color: var(--vary-dark);
+        border: 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content:center;
+        margin: 30px;
+        /* height: 10px;
+        width: 10px; */
+        border-radius: 50%;
+    }
+    
+    .rates{
+        
+        display: flex;
+        margin: 5px 10px 5px 20px;
+        
+    }
+    .rate{
+        color: var(--light-gray);
+        border: 0;
+        display: flex;
+        padding: 15px;
+        margin: 5px;;
+        height: 25px;
+        width: 25px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: var(--vary-dark);
+    }
+    .btn{
+        background-color: var(--Orange);
+        border: 0;
+        height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+        margin: 5px 10px 20px 20px;
+        color: var(--White);
+        
+    }
+    .message{
+        margin: 30px;
+        display: flex;
+        justify-content:end;
+        align-items: center;
+    }
+    p{
+        color: var(--light-gray);
+    }
+    .question{
+        color: var(--White);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 30px;
+    }
+    .container1{
+        background-color: var(--dark-blue) ;
+        height: 400px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10%;
+        margin: 15px;
+    }
+    .thankupic{
+        margin: 20px;
+    }
+    .selected{
+        border: 0;
+        padding: 5px;
+        height: 20px;
+        border-radius: 25px;
+        margin: 20px 0px 20px 0px ;
+        background-color: var(--vary-dark);
+    }
+    .selected p{
+        color:var(--Orange);
+    }   
+    .thanks{
+        color: var(--White);
+    }
+    .message2{
+        margin: 30px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .appreciation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
